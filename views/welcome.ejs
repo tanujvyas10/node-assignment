@@ -1,0 +1,44 @@
+
+    
+
+<% include ./partials/header %>
+
+
+<div class="ui main text container segment">
+  <div class="ui huge header">The Node assignment</div>
+  <form class="ui form" action="/data_save" method="POST">
+    
+    <input type="text" placeholder="name" name="name">
+    <hr>
+    <input type="email" placeholder="email" name="email">
+    <hr>
+    <input type="text" placeholder="address" name="address">
+    <hr>
+    <input type="text" placeholder="destination" name="designation">
+    <hr>
+    <input type="number" placeholder="phone" name="phone">
+
+      <lable>Intrests</lable><br>
+      <input type="checkbox" name="interests" value="Football"> football<br>
+      <input type="checkbox" name="interests" value="tennis" checked> tennis<br>
+      <input type="checkbox" name="interests" value="coding"> Coding<br>
+      <input type="checkbox" name="interests" value="Car" checked> counterstrike <br>
+<input type="text" name="secretKey"placeholder="Enter the secret key for authentication purpose "><br>
+
+      <button type="submit">Submit</button>
+<a href="/page" class="href">List of users</a>
+
+<a href="/coding" class="href">List of people like coding</a>
+
+
+
+        </div>
+       
+    
+
+
+
+    
+
+
+<% include ./partials/footer %>

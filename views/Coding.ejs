@@ -1,0 +1,12 @@
+<h1>Coding people</h1>
+<% foundData.forEach((el)=>{   %>
+    <% (el.interests.forEach((pm)=>{ %>
+     <%   if(pm=="coding"){ %>
+            <%=el.name %>
+        <%} %>
+   <% })) %>
+
+<hr>
+
+<% }) %>
+       

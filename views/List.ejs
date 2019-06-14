@@ -1,0 +1,7 @@
+<% data.forEach((el)=>{%>
+    <p><%= el %></p>
+    <a href="/edit_verify/<%= el._id %>">Edit</a> <a href="/delete_verify/<%= el._id %>" >Delete</a>
+    <a href="/comment/<%= el._id %>" class="href">Comment</a>
+    <a href="/comment_each_user/<%= el._id %>" class="href">Check the comment by this user</a>
+
+<% }) %>
